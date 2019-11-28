@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DroneSimulator/.vs/DroneSimulator/v15/Server/sqlite3
+/DroneSimulator/.vs/DroneSimulator/v15/.suo
+/DroneSimulator/Library/ShaderCache
