@@ -17,7 +17,9 @@ public class DroneMovement : MonoBehaviour {
     public Transform MotorRL;
 
     public bool HoldAltitude = true;
-    public bool AutoLevel;
+
+    // TODO
+    //public bool AutoLevel;
 
     #endregion
 
