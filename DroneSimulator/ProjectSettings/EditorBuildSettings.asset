@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 8111ae498b236a74aab95291d8dc17ec
+  - enabled: 1
+    path: Assets/Scenes/DroneSimulator.unity
+    guid: c347d0fcdfc92364c8b516d29f84be57

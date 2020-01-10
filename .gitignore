@@ -9,16 +9,10 @@
 *.mdb
 *.dll
 *.info
-DroneSimulator/Library/metadata/fa/fa2fe4e4111d6b54ebe5e472b77b7644
-DroneSimulator/Library/metadata/df/df77383a19c23d64caf8c998847e591d
-DroneSimulator/Library/metadata/9b/9bc0ff1b6c453d1408cf9ccef601b784
-DroneSimulator/Library/metadata/88/88536c53206b23d429853ae6e3b27319
-DroneSimulator/Library/metadata/62/62b09f5ce2ec3344f89a3ad1f735c895
-DroneSimulator/Library/metadata/51/51f7b7806c6f3b14587b0e4d6b363055
-DroneSimulator/Library/metadata/00/00000000000000002000000000000000
-DroneSimulator/Library/metadata/00/00000000000000002000000000000000
-DroneSimulator/Library/shadercompiler-UnityShaderCompiler.exe0.log
+DroneSimulator/Library
+DroneSimulator/Library/metadata
+DroneSimulator/Drone Simulator_Data
+*.cache
 *.log
-DroneSimulator/Library/metadata/00/00000000000000002000000000000000
-DroneSimulator/Library/assetDatabase3
-DroneSimulator/Library/assetDatabase3
+DroneSimulator/Library/shadercompiler-UnityShaderCompiler.exe0.log
+DroneSimulator/Drone Simulator.exe
