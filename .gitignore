@@ -12,10 +12,9 @@
 *.cache
 *.log
 /DroneSimulator/Library
-/DroneSimulator/Library/metadata
 /DroneSimulator/Drone Simulator_Data
 /DroneSimulator/Library/shadercompiler-UnityShaderCompiler.exe0.log
 /DroneSimulator/Drone Simulator.exe
-/DroneSimulator/Temp/UnityLockfile
 /DroneSimulator/Packages/manifest.json
 /DroneSimulator/Temp
+/DroneSimulator/obj

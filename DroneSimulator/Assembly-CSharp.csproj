@@ -61,6 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Base\CameraMovementBase.cs" />
+    <Compile Include="Assets\Scripts\Base\DroneMovementBase.cs" />
+    <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\DroneMovement.cs" />
     <Compile Include="Assets\Scripts\Helpers\PIDController.cs" />
     <Compile Include="Assets\Scripts\Helpers\ReadOnlyAttribute.cs" />

@@ -18,6 +18,6 @@ public class ThrottleTextBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         var currentThrottle = droneScript.InputValues[0];
-        throttleText.text = currentThrottle.ToString();
+        throttleText.text = string.Format("{0:0.00}", currentThrottle);
 	}
 }
