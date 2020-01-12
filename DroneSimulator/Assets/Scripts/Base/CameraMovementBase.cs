@@ -4,8 +4,7 @@ public class CameraMovementBase : MonoBehaviour
 {
     public Transform drone;
 
-    // TODO
-    //public bool FPV = false;
+    public bool FPV = false;
 
     DroneMovement droneScript;
     Transform camera;
@@ -18,19 +17,40 @@ public class CameraMovementBase : MonoBehaviour
 
     void Update()
     {
+        if (FPV)
+            FollowDroneFirstPerson();
+        else
+            FollowDroneThirdPerson();
+    }
+
+    void FollowDroneFirstPerson()
+    {
+        var dronePosition = drone.transform.position;
+        var droneRotation = drone.rotation.eulerAngles;
+
+        camera.transform.position = dronePosition;
+
+        // add some rotation to get a better view
+        var rotation = droneRotation + new Vector3(-20, 0, 0);
+        camera.transform.rotation = Quaternion.Euler(rotation);
+    }
+
+    void FollowDroneThirdPerson()
+    {
         var throttle = droneScript.InputValues[0];
         var maxThrottle = DroneMovement.MaxThrottle;
 
         var dronePosition = drone.transform.position;
-        var droneYAngle = drone.rotation.y;
+        var droneYAngle = drone.eulerAngles.y;
+        var droneYAngleRadians = droneYAngle * Mathf.Deg2Rad;
 
-        // TODO - animation & rotating
+        // TODO - animation
         //var offset = ((throttle / maxThrottle) + 1) * PositionOffset;
         var rotatedOffset = new Vector3
         {
-            x = PositionOffset.x * Mathf.Cos(droneYAngle),
+            x = PositionOffset.z * Mathf.Sin(droneYAngleRadians),
             y = PositionOffset.y,
-            z = - PositionOffset.x * Mathf.Sin(droneYAngle)
+            z = PositionOffset.z * Mathf.Cos(droneYAngleRadians)
         };
         camera.transform.position = dronePosition + rotatedOffset;
 
@@ -39,6 +59,6 @@ public class CameraMovementBase : MonoBehaviour
         camera.transform.rotation = Quaternion.Euler(rotation);
     }
 
-    static readonly Vector3 PositionOffset = new Vector3(-1f, 0.6f, 0);
-    static readonly Vector3 RotationOffest = new Vector3(15, 90, 0);
+    static readonly Vector3 PositionOffset = new Vector3(0, 0.6f, -1f);
+    static readonly Vector3 RotationOffest = new Vector3(15, 0, 0);
 }

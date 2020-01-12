@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1712873944692641421}
   - component: {fileID: 1712873944692641422}
   m_Layer: 0
-  m_Name: Propeller RR
+  m_Name: Propeller RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,7 +192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712873945023049632}
   m_Layer: 0
-  m_Name: Motor FR
+  m_Name: Motor RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 1712873945135949827}
   - component: {fileID: 1712873945135949852}
   m_Layer: 0
-  m_Name: Propeller RL
+  m_Name: Propeller FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -313,7 +313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712873945513878994}
   m_Layer: 0
-  m_Name: Motor RL
+  m_Name: Motor FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -343,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712873945592967924}
   m_Layer: 0
-  m_Name: Motor RR
+  m_Name: Motor RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 1712873945667597020}
   - component: {fileID: 1712873945667597021}
   m_Layer: 0
-  m_Name: Propeller FR
+  m_Name: Propeller RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -531,7 +531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712873945996258374}
   m_Layer: 0
-  m_Name: Motor FL
+  m_Name: Motor FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,7 +564,7 @@ GameObject:
   - component: {fileID: 1712873946408295588}
   - component: {fileID: 1712873946408295589}
   m_Layer: 0
-  m_Name: Propeller FL
+  m_Name: Propeller FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -707,10 +707,10 @@ MonoBehaviour:
   Velocity: 0
   AngularVelocity: 0
   MaxVelocity: 20
-  MotorFL: {fileID: 1712873945996258374}
-  MotorFR: {fileID: 1712873945023049632}
-  MotorRR: {fileID: 1712873945592967924}
-  MotorRL: {fileID: 1712873945513878994}
+  MotorFL: {fileID: 1712873945513878994}
+  MotorFR: {fileID: 1712873945996258374}
+  MotorRR: {fileID: 1712873945023049632}
+  MotorRL: {fileID: 1712873945592967924}
   HoldAltitude: 1
   InputValues:
   - 0
