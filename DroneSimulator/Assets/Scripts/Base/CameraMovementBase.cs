@@ -38,7 +38,7 @@ public class CameraMovementBase : MonoBehaviour
     void FollowDroneThirdPerson()
     {
         var throttle = droneScript.InputValues[0];
-        var maxThrottle = DroneMovement.MaxThrottle;
+        var maxThrottle = droneScript.MaxThrottle;
 
         var dronePosition = drone.transform.position;
         var droneYAngle = drone.eulerAngles.y;

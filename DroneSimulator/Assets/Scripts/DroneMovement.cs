@@ -2,15 +2,17 @@
 
 public class DroneMovement : DroneMovementBase
 {
-    private void Update()
+    protected override void Update()
     {
         CalculateVelocity();
         CalculateDrag();
+        base.Update();
     }
 
-    void FixedUpdate ()
+    protected override void FixedUpdate()
     {
         CalculateMotorsForces();
         ApplyMotorsForces();
+        base.FixedUpdate();
     }
 }
