@@ -816,6 +816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1102971816}
+  - component: {fileID: 1102971815}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -823,6 +824,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1102971815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102971814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb2a0bca268be24ead0e9931e7f690c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1102971816
 Transform:
   m_ObjectHideFlags: 0
@@ -2156,7 +2169,7 @@ PrefabInstance:
     - target: {fileID: 1712873946456380833, guid: 1333820fc68ce124cb9a6053958204e2,
         type: 3}
       propertyPath: MaxAngle
-      value: 45
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1712873946456380833, guid: 1333820fc68ce124cb9a6053958204e2,
         type: 3}
@@ -2171,7 +2184,7 @@ PrefabInstance:
     - target: {fileID: 1712873946456380833, guid: 1333820fc68ce124cb9a6053958204e2,
         type: 3}
       propertyPath: HoldThrottle
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1712873946456380834, guid: 1333820fc68ce124cb9a6053958204e2,
         type: 3}

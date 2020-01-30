@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Base\DroneMovementBase.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\DroneMovement.cs" />
+    <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\Helpers\PIDController.cs" />
     <Compile Include="Assets\Scripts\Helpers\ReadOnlyAttribute.cs" />
     <Compile Include="Assets\Scripts\UI\Buttons\BackButtonBehaviour.cs" />
